@@ -1,0 +1,50 @@
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(136, 146, 255, 1), rgba(109, 107, 229, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-description {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 623px;
+    text-align: center;
+    color: white;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 17px;
+    color: white;
+}
+
+.modal-check {
+    font-size: 60px;
+    color: white;
+}
+
+.modal-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-button {
+    width: 336px;
+    height: 40px;
+    margin: 10px;
+}

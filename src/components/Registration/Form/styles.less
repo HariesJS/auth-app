@@ -1,0 +1,43 @@
+@import '../../../uikit/Input/styles.less';
+
+.form-wrapper {
+    padding-left: 24px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.small-user-input {
+    .input;
+    width: 176px;
+    margin-right: 24px;
+}
+
+.main-user-inputs {
+    display: flex;
+}
+
+@media (max-width: 1038px) {
+    .main-user-inputs {
+        flex-direction: column;
+    }
+    .small-user-input {
+        width: 70%;
+    }
+}
+
+.user-birthday, .user-phone-input {
+    .input;
+    width: 70%;
+}
+
+.register-form-title {
+    .input-title;
+}
+
+.bottom-buttons-wrapper {
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+}
